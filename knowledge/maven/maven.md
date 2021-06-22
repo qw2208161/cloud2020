@@ -42,5 +42,5 @@
 
 
 ### 7.解决org.apache.ibatis.binding.BindingException: Invalid bound statement (not found)问题
-        dao接口与xml的文件名不一致。 
+        dao接口与xml的文件名不一致
         https://blog.csdn.net/sundacheng1989/article/details/81630370
