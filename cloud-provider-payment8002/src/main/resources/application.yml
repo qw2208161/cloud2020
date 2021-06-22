@@ -26,6 +26,9 @@ mybatis:
     type-aliases-package: com.atguigu.springcloud.entities
 
 eureka:
+  instance:
+    instance-id: payment8002 #添加此处
+    prefer-ip-address: true #添加此处
   client:
     #表示是否将自己注册进Eurekaserver默认为true。
     register-with-eureka: true
