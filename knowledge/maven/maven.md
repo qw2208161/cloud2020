@@ -38,7 +38,7 @@
             </set>
       </option>
       最后保存重新开启idea
-      https://www.cnblogs.com/yang-xiansen/p/11569040.html
+      https://www.cnblogs.com/yang-xiansen/p/11569040.html 
 
 
 ### 7.解决org.apache.ibatis.binding.BindingException: Invalid bound statement (not found)问题
