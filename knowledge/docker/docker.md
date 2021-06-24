@@ -31,3 +31,18 @@
   
 ### 7.镜像国内访问速度太慢
     https://blog.csdn.net/LEoe_/article/details/78681343
+    
+    
+### 8.使用docker安装mysql并连接
+    https://www.cnblogs.com/yy-cola/p/11226924.html
+     docker search mysql
+     docker pull mysql
+     docker run -p 3306:3306 --name mymysql -v $PWD/conf:/etc/mysql/conf.d -v $PWD/logs:/logs -v $PWD/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql
+     docker exec -it 62349aa31687 /bin/bash
+     
+     mysql -uroot -p
+     GRANT ALL ON *.* TO 'root'@'%';
+      flush privileges;
+      ALTER USER 'root'@'localhost' IDENTIFIED BY 'password' PASSWORD EXPIRE NEVER;
+       ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456';
+       flush privileges;

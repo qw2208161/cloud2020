@@ -8,3 +8,5 @@ https://blog.csdn.net/u010173095/article/details/88569651?utm_medium=distribute.
 
 部署consul集群
 https://www.cnblogs.com/lfzm/p/10633595.html √
+docker stop 522fdb56ae7b 25bad3480696 e29101cf3368 777b8ab78a26 51a344fc7162 90ab06b8aa0f
+
