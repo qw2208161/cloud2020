@@ -21,9 +21,13 @@
 ### 5.【docker系列】三台阿里云服务器搭建zookeeper集群+kafka集群，并且测试
     https://blog.csdn.net/weixin_42697074/article/details/103862476
     
-    https://www.kancloud.cn/roeslys/linux/1592928
+    https://www.kancloud.cn/roeslys/linux/1592928  很多样！！！！！！
     
     https://www.cnblogs.com/yorkwu/p/9858306.html
     
 ### 6.docker部署consul集群
     https://blog.csdn.net/iteye_6787/article/details/82641301
+    
+  
+### 7.镜像国内访问速度太慢
+    https://blog.csdn.net/LEoe_/article/details/78681343
