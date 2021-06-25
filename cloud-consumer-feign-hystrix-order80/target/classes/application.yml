@@ -1,0 +1,21 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+    eureka-server-read-timeout-seconds: 8
+
+#自定义ribbon的超时时间
+ribbon:
+
+  ReadTimeout: 10000
+
+  ConnectTimeout: 9000
+
+#开启
+feign:
+  hystrix:
+    enabled: true
